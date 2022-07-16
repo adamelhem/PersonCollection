@@ -1,6 +1,6 @@
 ﻿namespace PersonCollection
 {
-    public interface IStrategyPersonCollection
+    public interface IPersonCollection
     {
         public void Add(IPerson person);
         public IPerson Remove(IPerson person);

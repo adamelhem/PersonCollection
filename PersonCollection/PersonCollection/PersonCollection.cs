@@ -3,9 +3,9 @@
     public class PersonCollection
     {
 
-        IStrategyPersonCollection _strategyPersonCollection;
+        IPersonCollection _strategyPersonCollection;
 
-        public PersonCollection(IStrategyPersonCollection strategyPersonCollection)
+        public PersonCollection(IPersonCollection strategyPersonCollection)
         {
             _strategyPersonCollection = strategyPersonCollection;
         }

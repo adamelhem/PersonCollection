@@ -1,11 +1,11 @@
 ﻿namespace PersonCollection
 {
-    public class Strategy1PersonCollection : IStrategyPersonCollection
+    public class PersonSortedCollection : IPersonCollection
     {
         SortedList<int, IPerson> _sortedList;
         MaximumValueSortIndexer _maximumValueSortStrategy;
 
-        public Strategy1PersonCollection(MaximumValueSortIndexer maximumValueSortStrategy)
+        public PersonSortedCollection(MaximumValueSortIndexer maximumValueSortStrategy)
         {
             _sortedList = new SortedList<int, IPerson>(maximumValueSortStrategy);
             _maximumValueSortStrategy = maximumValueSortStrategy;
